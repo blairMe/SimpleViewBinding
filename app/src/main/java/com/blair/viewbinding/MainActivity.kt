@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val toReplace = "This view is Binded"
-        //val toReplace = "This view is Binded"
         binding.theText.text = toReplace
     }
 }
